@@ -81,8 +81,6 @@ docs:
 	@echo "Creating documentation in 'docs' directory"
 	@echo "NOTE: doxygen must be installed to generate docs"
 	@echo "      "
-	brew install doxygen # try to install doxygen if not installed (mac osx only)
-	brew install graphviz
 	doxygen Doxyfile
 	
 cleandoc:
